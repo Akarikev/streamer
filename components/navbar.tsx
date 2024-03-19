@@ -6,7 +6,7 @@ import Link from "next/link";
 function Navbar() {
   return (
     <div>
-      <div className="border-b h-14 border-b-gray-600   flex justify-between px-6 items-center md:px-10">
+      <div className="border-b-2 h-14 border-b-pink-300   flex justify-between px-6 items-center md:px-10">
         <div className="flex justify-between items-center gap-3">
           <h1 className="text-bold text-xl text-pink-300">Expen$e</h1>
 
