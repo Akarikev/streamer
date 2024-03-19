@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Dosis } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Dosis({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Streamer",
-  description: "Stream with friends!",
+  title: "expen$e",
+  description: "check my",
 };
 
 export default function RootLayout({

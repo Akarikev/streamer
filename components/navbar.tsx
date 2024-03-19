@@ -8,9 +8,9 @@ function Navbar() {
     <div>
       <div className="border-b h-14 border-b-gray-600   flex justify-between px-6 items-center md:px-10">
         <div className="flex justify-between items-center gap-3">
-          <h1 className="text-bold text-xl text-green-300">Streamer</h1>
+          <h1 className="text-bold text-xl text-pink-300">Expen$e</h1>
 
-          <Link
+          {/* <Link
             href={""}
             className={buttonVariants({
               variant: "link",
@@ -33,7 +33,7 @@ function Navbar() {
             })}
           >
             link 3
-          </Link>
+          </Link> */}
         </div>
         <ModeToggle />
       </div>
